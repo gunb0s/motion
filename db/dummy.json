@@ -6,8 +6,16 @@
   },
   {
     "type": "todo",
-    "todos": ["Impelement CRUD"]
+    "todos": ["Impelement CRUD", "Impelement Homepage UI"]
   },
-  { "type": "video", "url": "https://www.youtube.com/embed/bdWnD6VqLAs" },
-  { "type": "image", "url": "https://picsum.photos/200/300" }
+  {
+    "type": "video",
+    "url": "https://www.youtube.com/embed/bdWnD6VqLAs",
+    "description": "video"
+  },
+  {
+    "type": "image",
+    "url": "https://picsum.photos/200/300",
+    "description": "image"
+  }
 ]

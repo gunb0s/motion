@@ -29,7 +29,7 @@ const Home: NextPage = () => {
           <li className={createButtonStyle}>Todo</li>
         </ul>
       </div>
-      <div className="flex-1 py-10 px-4 bg-indigo-500 rounded-md shadow-lg space-y-3">
+      <div className="flex-1 py-10 px-4 bg-indigo-500 rounded-md shadow-lg space-y-3 overflow-y-scroll">
         {contents.map((content, idx) => (
           <Content key={idx} content={content} />
         ))}
