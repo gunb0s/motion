@@ -4,7 +4,7 @@ interface ContentProps {
   content: MotionContent;
 }
 
-function showContent(content: MotionContent) {
+function renderContent(content: MotionContent) {
   switch (content.type) {
     case "text":
       return (
@@ -60,7 +60,7 @@ function showContent(content: MotionContent) {
 export default function Content({ content }: ContentProps) {
   return (
     <div className="px-4 py-10 bg-indigo-600 rounded-md shadow-xl cursor-pointer transition-colors hover:bg-indigo-700">
-      {showContent(content)}
+      {renderContent(content)}
     </div>
   );
 }
