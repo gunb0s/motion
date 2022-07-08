@@ -2,6 +2,9 @@
 
 GET /api/contents
 
+    response
+        200 [content...]
+
 POST /api/contents/video
 
 POST /api/contents/image

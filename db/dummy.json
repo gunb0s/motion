@@ -2,12 +2,12 @@
   {
     "type": "text",
     "title": "motion",
-    "description": "hello"
+    "description": "enjoy coding"
   },
   {
     "type": "todo",
-    "todos": []
+    "todos": ["Impelement CRUD"]
   },
-  { "type": "video", "url": "" },
-  { "type": "image", "url": "" }
+  { "type": "video", "url": "https://www.youtube.com/embed/bdWnD6VqLAs" },
+  { "type": "image", "url": "https://picsum.photos/200/300" }
 ]
