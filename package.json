@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "tsc --watch"
+    "start": "npx tailwindcss -i ./style/main.css -o ./dist/style/output.css&& tsc --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
